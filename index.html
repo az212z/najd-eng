@@ -35,7 +35,7 @@ h1,h2,h3,h4{font-family:var(--fa-d);font-weight:800;line-height:1.18;letter-spac
 .on-dark .nm{color:#fff}.on-dark .nm small{color:var(--rust-l)}
 
 #pre{position:fixed;inset:0;z-index:10000;background:var(--stone);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;transition:opacity .9s var(--ease),visibility .9s}
-#pre.done{opacity:0;visibility:hidden}
+#pre.done{opacity:0;visibility:hidden;display:none;pointer-events:none}
 #pre .mk{width:74px;height:74px;opacity:0;transform:translateY(10px);animation:plin 1s var(--ease) .1s forwards}
 #pre b{font-family:var(--fa-d);font-size:clamp(28px,7vw,44px);color:#fff;font-weight:800;opacity:0;animation:plin 1s var(--ease) .3s forwards}
 #pre small{font-family:var(--fa);font-size:12px;letter-spacing:.18em;color:var(--rust-l);opacity:0;animation:plin 1s var(--ease) .5s forwards}
